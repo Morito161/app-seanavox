@@ -57,7 +57,7 @@ class AbecedarioActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             // Imágenes extra añadidas
             AbecedarioItem(R.drawable.no_se_letra, "Pez", "Con la mano abierta y los dedos unidos, se reliza un movimiento ondulatorio hacia adelante."),
             AbecedarioItem(R.drawable.img_8885, "Almeja", "Con las dos manos se unen las puntas de los dedos indice y pulgar formando una especie de pinza. Las palmas miran hacia usted."),
-            AbecedarioItem(R.drawable.img_8886, "Bùho", "Se unen por la punta los indices y pulgares de cada mano y se colocan alrededor de los ojos como si fueran unos binoculares."),
+            AbecedarioItem(R.drawable.img_8886, "Búho", "Se unen por la punta los indices y pulgares de cada mano y se colocan alrededor de los ojos como si fueran unos binoculares."),
             AbecedarioItem(R.drawable.img_8889, "Gato", "Se coloca la mano abierta en posiciòn de garra sobre la mejilla, y se recorre hacia atràs."),
             AbecedarioItem(R.drawable.img_8890, "Perro", "Los dedos indice medio y pulgar se tocan con las yemas y se realiza un movimiento de chasquido, simulando llamar a un perro."),
             AbecedarioItem(R.drawable.img_8892, "Aguila", "SE coloca el indice y el pulgar en posiciòn de garra sobre la boca, tocándola con el dorso de la mano y se hace un movimiento hacia adelante y atrás."),
