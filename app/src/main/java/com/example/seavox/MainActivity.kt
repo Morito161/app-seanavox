@@ -1,4 +1,4 @@
-package com.seavox
+package com.example.seavox
 
 import android.content.Intent
 import android.os.Bundle

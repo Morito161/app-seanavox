@@ -1,7 +1,9 @@
-package com.seavox
+package com.example.seavox
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class DiccionarioActivity : AppCompatActivity() {
@@ -28,11 +30,12 @@ class DiccionarioActivity : AppCompatActivity() {
         }
 
         catAbecedario.setOnClickListener {
-            mostrarMensaje("Abecedario seleccionado")
+            val intent = Intent(this, AbecedarioActivity::class.java)
+            startActivity(intent)
         }
     }
 
     private fun mostrarMensaje(txt: String) {
-        android.widget.Toast.makeText(this, txt, android.widget.Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, txt, Toast.LENGTH_SHORT).show()
     }
 }

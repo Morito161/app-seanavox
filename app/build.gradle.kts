@@ -1,15 +1,16 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
 
-    namespace = "com.seavox"
+    namespace = "com.example.seavox"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.seavox"
+        applicationId = "com.example.seavox"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -43,6 +44,9 @@ android {
 }
 
 dependencies {
+
+    // Glide for image loading
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
     // Material Components (DrawerLayout, NavigationView, etc.)
     implementation("com.google.android.material:material:1.9.0")

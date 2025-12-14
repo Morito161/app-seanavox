@@ -1,4 +1,4 @@
-package com.seavox
+package com.example.seavox
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,5 @@
-package com.seavox
+package com.example.seavox
+
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -13,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
-import com.seavox.databinding.ActivityCamaraBinding
+import com.example.seavox.databinding.ActivityCamaraBinding
 
 class CamaraActivity : AppCompatActivity() {
 
